@@ -1,0 +1,18 @@
+{
+  "name": "codepress/code-category",
+  "require": {
+    "php": ">=5.6.0",
+    "illuminate/contracts": "~5.1",
+    "illuminate/http": "~5.1",
+    "illuminate/support": "~5.1",
+    "illuminate/database": "~5.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CodePress\\CodeCategory\\": "src/CodeCategory/"
+    }
+  }
+}
